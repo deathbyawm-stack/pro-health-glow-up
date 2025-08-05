@@ -23,12 +23,8 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <section className="py-20 lg:py-32 bg-muted/30 relative overflow-hidden">
+    <section className="py-20 lg:py-32 bg-muted/30 relative">
       
-      {/* Floating decorative elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full blur-xl float-animation"></div>
-      <div className="absolute bottom-20 right-10 w-24 h-24 bg-trust/10 rounded-full blur-2xl float-animation" style={{ animationDelay: '1s' }}></div>
-
       <div className="container mx-auto px-4 lg:px-6 relative z-10">
         
         {/* Section Header */}
