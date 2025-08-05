@@ -29,9 +29,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-foreground text-white relative overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,138,149,0.1)_25%,transparent_25%,transparent_50%,rgba(255,138,149,0.1)_50%,rgba(255,138,149,0.1)_75%,transparent_75%)] bg-[length:60px_60px] opacity-50"></div>
+    <footer className="bg-foreground text-white relative">
       
       <div className="container mx-auto px-4 lg:px-6 relative z-10">
         
