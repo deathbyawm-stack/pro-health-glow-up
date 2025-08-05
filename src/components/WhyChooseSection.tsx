@@ -24,8 +24,6 @@ const WhyChooseSection = () => {
 
   return (
     <section className="py-20 lg:py-32 bg-muted/30 relative overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,138,149,0.05)_25%,rgba(255,138,149,0.05)_50%,transparent_50%,transparent_75%,rgba(255,138,149,0.05)_75%)] bg-[length:60px_60px]"></div>
       
       {/* Floating decorative elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-primary/10 rounded-full blur-xl float-animation"></div>
