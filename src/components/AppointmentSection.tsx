@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -26,8 +27,6 @@ const AppointmentSection = () => {
 
   return (
     <section className="py-20 lg:py-32 gradient-coral relative overflow-hidden">
-      {/* Background pattern */}
-      <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(255,255,255,0.1)_25%,transparent_25%,transparent_50%,rgba(255,255,255,0.1)_50%,rgba(255,255,255,0.1)_75%,transparent_75%)] bg-[length:60px_60px]"></div>
       
       {/* Floating elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-white/20 rounded-full blur-xl float-animation"></div>
